@@ -1,4 +1,4 @@
-///code source: https://www.codingnepalweb.com/quiz-app-with-timer-javascript/
+//code source: https://www.codingnepalweb.com/quiz-app-with-timer-javascript/
 
 const start_btn = document.querySelector('.start-btn button');
 const info_box = document.querySelector('.info-box');
