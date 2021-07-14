@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <!--Start quiz button-->
+    <div class="start-btn"><button>Start Quiz</button></div>
+    <!--Info Box-->
+    <div class="info-box">
+        <div class="info-title"><span>How this quiz works:</span></div>
+            <div class="info">1. Once the start button is clicked, the timer will start.You will be given <span>90 seconds</span> to answer 8 questions!</div>
+            <div class="info">2. If questions are answered correctly, they will appear in green and will automatically move on to the next question.</div>
+            <div class="info">3. If questions are answered incorrectly, they will appear in red and <span>5 seconds</span>will be deducted from the timer .</div>
+            <div class="info">4. You'll get points on the basis of your correct answers.</div>
+            <div class="info">5. The quiz will end when all questions are answered or the timer reaches 0.</div>
+            <div class="info">6. Be sure to insert your initials to be added to the list of high scores!</div>
+        </div>
+        <div class="buttons">
+            <button class="exit">Exit Quiz</button>
+            <button class="start">Start Quiz</button>
+        </div>
+    </div>
+    <!--Quiz Box-->
+    <div class="quiz-box">
+        <header>
+            <div class="title">JavaScript Fundamentals Quiz</div>
+            <div class="timer">
+                <div class="time-left-text">Time Left</div>
+                <div class="timer-sec">90</div>
+            </div>
+            <div class="time-line"></div>
+        </header>
+        <section>
+            <div class="que-text"></div>
+            <div class="choice-list"></div>
+        </section>
+        <footer>
+            <div class="total-que"></div>
+        </footer>
+    </div>
+    <!--Result Box-->
+    <div class="result-box">
+        <div class="icon">
+            <i class="thumbs-up"></i>
+        </div>
+        <div class="complete-text">Congrats! You've completed the quiz!</div>
+        <div class="score-text"></div>
+        <div class="buttons">
+            <button class="restart">Re-take Quiz</button>
+            <button class="quit">Quit</button>
+        </div>
+    </div>
+    <!--JS file that holds q&a's-->
+    <script src="assets/script/q&a.js"></script>
+    <!--All other JS codes-->
+    <script src="assets/script/script.js"></script>
+</body>
+</html>
