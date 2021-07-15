@@ -1,11 +1,61 @@
-.start-btn, 
-.info-box, 
-.quiz-box, 
-.result-box {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2,
-                0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
+* {
+    background-color: blue;
+    font-color: white;  
+    font-size: 24px;
+    margin: auto;
+    padding: auto;
+  }
+  
+  .start-btn button{
+    background-color: orange;
+  }
+  
+  .start-btn, 
+  .info-box,
+  .quiz-box,
+  .result-box {
+     position: absolute;
+     top:50%;
+     left:50%;
+     transform: translate(-50%, -50%);
+     box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.45),
+                 1px 6px 20px 0 rgba(0, 0, 0, 0.20);
+    
+  }
+  
+  /*info box*/
+  .info-box{
+    width: 43%;
+    height: 400px;
+    background-color: green;
+  }
+  
+  .info-title span{
+    padding-top: 2%;
+    font-size: 42px; 
+    padding-left: 31%;
+  }
+  
+  .info-list {
+    padding: 3% 3% 3% 3%;
+  }
+  .info {
+    padding-top: 1%;
+    text-align: left;
+    font-size: 22px;
+  }
+  .info-box, .info-title span, .info-title, .info-list, .info, .buttons, span{
+    background: gray;
+  }
+  
+  .exit, .continue {
+    background-color: white;
+    height: 60px;
+    margin-bottom: 2%; 
+  }
+  .buttons {
+    display:flex;
+    justify-content: flex-end;
+    align-content: center;
+    width: 100%;
+  }
