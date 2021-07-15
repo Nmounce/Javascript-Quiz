@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css"/>
-    <title>Document</title>
+    <title>Javascript Quiz</title>
 </head>
 <body>
     <!--Start quiz button-->
@@ -13,6 +13,7 @@
     <!--Info Box-->
     <div class="info-box">
         <div class="info-title"><span>How this quiz works:</span></div>
+        <div class="info-list">
             <div class="info">1. Once the start button is clicked, the timer will start.You will be given <span>90 seconds</span> to answer 8 questions!</div>
             <div class="info">2. If questions are answered correctly, they will appear in green and will automatically move on to the next question.</div>
             <div class="info">3. If questions are answered incorrectly, they will appear in red and <span>5 seconds</span>will be deducted from the timer .</div>
@@ -21,8 +22,8 @@
             <div class="info">6. Be sure to insert your initials to be added to the list of high scores!</div>
         </div>
         <div class="buttons">
-            <button class="exit">Exit Quiz</button>
-            <button class="start">Start Quiz</button>
+            <button class="quit">Exit Quiz</button>
+            <button class="restart">Continue</button>
         </div>
     </div>
     <!--Quiz Box-->
@@ -37,16 +38,17 @@
         </header>
         <section>
             <div class="que-text"></div>
-            <div class="choice-list"></div>
+            <div class="option-list"></div>
         </section>
         <footer>
             <div class="total-que"></div>
+            <button class="next-btn">Next Question</button>
         </footer>
     </div>
     <!--Result Box-->
     <div class="result-box">
         <div class="icon">
-            <i class="thumbs-up"></i>
+            <i class="fas fa-crown"></i>
         </div>
         <div class="complete-text">Congrats! You've completed the quiz!</div>
         <div class="score-text"></div>
@@ -56,8 +58,11 @@
         </div>
     </div>
     <!--JS file that holds q&a's-->
-    <script src="assets/script/q&a.js"></script>
+    <script src="assets\script\q&a.js"></script>
     <!--All other JS codes-->
-    <script src="assets/script/script.js"></script>
+    <script src="assets\script\script.js"></script>
 </body>
 </html>
+
+
+<!--source: https://www.codingnepalweb.com/quiz-app-with-timer-javascript/-->

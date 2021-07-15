@@ -1,6 +1,6 @@
 // array- passing in number, questions, options, and answers
 let questions = [
-    {
+        {
         numb: 1,
         question:"In a Window event, which property will display a message and an 'OK' and a 'Cancel' button?",
         answer:"confirm()",
@@ -11,7 +11,7 @@ let questions = [
             "getSelection()"
         ]
     },
-    {
+        {
         numb: 2,
         question:"In the console, which object method outputs a message?",
         answer:"log()",
@@ -22,7 +22,7 @@ let questions = [
             "clear()"
         ]
     },
-    {
+        {
         numb: 3,
         question:"In Javascript, there are 7 primitive types of data. These include objects, strings, numbers, _______, undefined, ______ and ______.",
         answer:"booleans, symbols, null",
@@ -33,7 +33,7 @@ let questions = [
             "booleans, symbols, null"
         ]
     },
-    {
+        {
         numb: 4,
         question:"Which Global function converts a string to a number?",
         answer:"parseInt()",
@@ -44,7 +44,7 @@ let questions = [
             "eval()"
         ]
     },
-    {
+        {
         numb: 5,
         question:"Which statement marks a block of statements to be executed depending on a condition?",
         answer:"if...else if...else",
@@ -55,7 +55,7 @@ let questions = [
             "try...catch...finally"
         ]
     },
-    {
+        {
         numb: 6,
         question:"This statement declares a variable inside brackets {} scope.",
         answer:"let",
@@ -66,7 +66,7 @@ let questions = [
             "let"
         ]
     },
-    {
+        {
         numb: 7,
         question:"Which string method returns the character at a specified index?",
         answer:"charAt()",
@@ -77,7 +77,7 @@ let questions = [
             "charAt()"
         ]
     },
-    {
+        {
         numb: 8,
         question:"In an array, this method joins 2 or more arrays, but does not change the existing arrays.",
         answer:"concat()",
