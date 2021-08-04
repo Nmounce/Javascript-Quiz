@@ -1,3 +1,4 @@
+
 * {
     background-color: rgb(179, 173, 173);
     font-size: 24px;
@@ -5,21 +6,16 @@
     margin: auto;
     padding: auto;
   }
-  
-  .start-btn button{
-    background-color: blue;
-    width: 20%;
-    height: 100px; 
-    position: absolute;
-    top:50%;
-    left: 40%;
-    color:white;
-    font-size:48px;
-    wrap:wrap;
-    box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.45),
-    1px 6px 20px 0 rgba(0, 0, 0, 0.20);
-  }
-  
+
+/* Start page */
+#start-page {
+  height: 400px;
+  text-align: center;
+  padding-top: 25%;
+  font-size: 36px;
+}
+/* All boxes*/
+
   .info-box,
   .quiz-box,
   .result-box {
@@ -29,14 +25,11 @@
      transform: translate(-50%, -50%);
      box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.45),
                  1px 6px 20px 0 rgba(0, 0, 0, 0.20);
-    
-  }
-  
+    width: 60%;
+    height:600px;
+}
+
   /*info box*/
-  .info-box{
-    width: 50%;
-    height: 400px;
-  }
   .info-title {
       margin-top: 3%;
   }
@@ -54,48 +47,104 @@
     font-size: 22px;
     padding-left: 3%;
   }
-  .info-box, .info-title span, .info-title, .info-list, .info, .buttons, span{
+  .info-box, .info-title span, .info-title, .info-list, .info, span{
     background-color: rgb(108, 159, 226);
   }
-  
-  .exit, .continue {
-    background-color: white;
-  }
-.continue {
-    margin-bottom: 3%; 
-    height: 50px;
-}
-.exit {
-    margin-left: 50%;
-    margin-right: 3%;
-    height: 50px;
-}
 
 /*Quiz Box*/
 
-.quiz-box {
-    width: 60%;
-    height:600px;
-    box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.45),
-                 1px 6px 20px 0 rgba(0, 0, 0, 0.20);
+.quiz-box header {
+  display: inline-flex;
+  width: 100%;
 }
 
 .title{
-    text-align: center;
-    padding-top: 3%;
-    font-size: 42px;
-    border-bottom: outset;
+    font-size: 36px;
+    padding: 2% 1% 0 2%;
 }
 
 .timer {
     display: flex;
-    background:cyan; 
-    justify-content: center;
-    background-color: seashell;
+    margin-top: 1%;
+    border: solid;
+    margin-left: 5%;
+}
+.time-left-text {
+height: 55px;
+text-align: center;
+font-size: 24px;
 }
 .time-left-text, .timer-sec {
-    padding: 1% 2%;
+    padding: 3% 2%;
     font-size: 36px;
-    border: solid;
-    background-color: lightsalmon;
 }
+.timer-sec {
+  background-color: darksalmon;
+  font-size: 48px;
+  border-left: solid;
+  height: 54px;
+  padding-top: 2%;
+  margin-left: -7%;
+}
+/* Result Box */
+.complete-text {
+  background-color: azure;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  padding: 5% 0 2% 0;
+  font-size: 36px;
+}
+.score-text {
+  height: 350px;
+  text-align: center;
+  color:rgb(86, 100, 230);
+}
+
+
+.footer {
+  margin: 50% 0 0 75%;
+}
+
+/*buttons*/
+  
+#start-btn button{
+  background-color: rgb(86, 100, 230);
+  width: 20%;
+  height: 100px; 
+  position: absolute;
+  top:50%;
+  left: 40%;
+  color:white;
+  font-size:48px;
+  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.45),
+  1px 6px 20px 0 rgba(0, 0, 0, 0.20);
+}
+
+.buttons {
+  width: 100%;
+  display: inline-block;
+}
+
+.restart, .continue, .quit, .exit, .next-btn {
+  height: 60px;
+  width: 200px;
+  font-size: 30px;
+  background-color: azure;
+  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.45),
+  1px 6px 20px 0 rgba(0, 0, 0, 0.20);
+}
+.restart, .continue {
+  margin: 0 -5% 3% 45%;
+}
+.restart {
+  margin-top: 3%;
+}
+.continue {
+  margin-top: 62%;
+}
+.quit, .exit, .next-btn {
+  margin: 3% 0 3% 6%;
+}
+
+
